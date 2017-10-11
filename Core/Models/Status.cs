@@ -4,13 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Planner.Models
+namespace Planner.Core.Models
 {
-    public class Date
+    public class Status
     {
         public int Id { get; set; }
-        public int Year { get; set; }
-        public int Month { get; set; }
-        public int Day { get; set; }
+        public string Value { get; set; }
     }
 }

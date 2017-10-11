@@ -7,7 +7,7 @@
     <ProjectGuid>{B25CA0DA-358A-49E0-B90D-1146283C8337}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Planner.Models</RootNamespace>
+    <RootNamespace>Planner.Core</RootNamespace>
     <AssemblyName>Models</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -40,12 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Date.cs" />
-    <Compile Include="Project.cs" />
+    <Compile Include="IDatesRepository.cs" />
+    <Compile Include="IPlannerDataService.cs" />
+    <Compile Include="IProjectsRepository.cs" />
+    <Compile Include="ITasksRepository.cs" />
+    <Compile Include="Models\Date.cs" />
+    <Compile Include="Models\Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ScheduledTask.cs" />
-    <Compile Include="Status.cs" />
-    <Compile Include="Task.cs" />
+    <Compile Include="Models\ScheduledTask.cs" />
+    <Compile Include="Models\Status.cs" />
+    <Compile Include="Models\Task.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

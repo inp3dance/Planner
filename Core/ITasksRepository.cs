@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Planner.Models
+namespace Planner.Core
 {
-    public class Status
+    public interface ITasksRepository
     {
-        public int Id { get; set; }
-        public string Value { get; set; }
     }
 }
