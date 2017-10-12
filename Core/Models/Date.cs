@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Planner.Core.Models
 {
-    public class Date
+    public class Date : ModelBase
     {
-        public int Id { get; set; }
         public int Year { get; set; }
         public int Month { get; set; }
         public int Day { get; set; }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Planner.Core
+namespace Planner.Core.Repositories
 {
     public interface IProjectsRepository
     {

@@ -40,10 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IDatesRepository.cs" />
-    <Compile Include="IPlannerDataService.cs" />
-    <Compile Include="IProjectsRepository.cs" />
-    <Compile Include="ITasksRepository.cs" />
+    <Compile Include="Models\ModelBase.cs" />
+    <Compile Include="Repositories\IDatesRepository.cs" />
+    <Compile Include="Repositories\IPlannerDataRepository.cs" />
+    <Compile Include="Services\IPlannerDataService.cs" />
+    <Compile Include="Repositories\IProjectsRepository.cs" />
+    <Compile Include="Repositories\IRepository.cs" />
+    <Compile Include="Repositories\IScheduledTasksRepository.cs" />
+    <Compile Include="Repositories\IStatusRepository.cs" />
+    <Compile Include="Repositories\ITasksRepository.cs" />
     <Compile Include="Models\Date.cs" />
     <Compile Include="Models\Project.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -51,5 +56,6 @@
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Task.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

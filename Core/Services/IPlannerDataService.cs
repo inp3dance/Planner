@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Planner.Core.Models
+namespace Planner.Core.Services
 {
-    public class Status : ModelBase
+    public interface IPlannerDataService
     {
-        public string Value { get; set; }
+        Repositories.IPlannerDataRepository Data { get; set; }
     }
 }

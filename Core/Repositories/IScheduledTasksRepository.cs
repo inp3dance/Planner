@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Planner.Core
+namespace Planner.Core.Repositories
 {
-    // this is the Unit of Work
-    public interface IPlannerDataService
+    public interface IScheduledTasksRepository
     {
     }
 }

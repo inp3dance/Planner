@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Planner.Core.Models
 {
-    public class Task
+    public class Task : ModelBase
     {
-        public int Id { get; set; }
         public int Name { get; set; }
         public int Description { get; set; }
         public List<string> Checklist { get; set; }

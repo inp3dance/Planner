@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Planner.Core.Models
 {
-    public class ScheduledTask : ModelBase
+    public class ModelBase
     {
-        public int TaskId { get; set; }
-        public int DateId { get; set; }
-        public int StatusId { get; set; }
+        public int Id { get; set; }
     }
 }

@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Planner.Core.Models
 {
-    public class Project
+    public class Project : ModelBase
     {
-        public int Id { get; set; }
         public string Name { get; set; }
         public string Color { get; set; }
     }
